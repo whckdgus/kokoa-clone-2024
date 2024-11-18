@@ -120,3 +120,6 @@ body{
     will-change: transform;
     animation: heartbeat 1s linear infinite;
 }
+.icon-row span {
+    margin-top: 3.5px;
+}

@@ -34,3 +34,11 @@
     font-size: 32px;
     color:white;
 }
+
+.icon-row__icon {
+    width:70px;
+}
+
+.opacity0{
+    opacity: 0;
+}

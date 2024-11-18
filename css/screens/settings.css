@@ -1,13 +1,13 @@
 .settings__setting {
     padding:20px 0px;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
+    border-bottom: 1px solid rgba(1, 1, 1, 0.04);
     font-size:15px;
     display:flex;
     align-items: center;
     justify-content: space-between;
 }
 .settings__setting i {
-    opacity: 0.8;
+    opacity: 1;
     margin-right : 18px;
     font-size:15px;
 }
@@ -15,5 +15,21 @@
     opacity: 0.5;
 }
 
+.settings-list .settings__setting:nth-child(3) {
+    padding-bottom:35px;
+    border-bottom: 1px solid rgba(12, 12, 12, 0.1); /* 원하는 여백 크기 */
+}
+.settings-list .settings__setting:nth-child(4) {
+    margin-top:  20px; /* 원하는 여백 크기 */
+}
 
-
+.settings__setting:nth-child(8) .settings__setting-column:last-child {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.settings__setting-column {
+    display: flex; /* Flexbox 사용 */
+    align-items: center; /* 수직 가운데 정렬 */
+    gap: 1px; /* 아이콘, 텍스트, N 간의 간격 */
+}
